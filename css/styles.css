@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fca271;
+}
+
+.navigation {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: #f4d41f;
+}
+
+.home-products {
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+    margin: top;
+    
+}
+
+.home-products:hover {
+    color: #f7f8f9;
+}
+
+.company {
+    justify-self: flex-start;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 40px;
+    color: #4f2d03;
+    font-family: 'Patua One', cursive;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img {
+    max-height: auto;
+    max-width: 100%;
+}
+
+.content-child1 {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+p {
+    margin: 15px;
+    padding: 5px;
+    font-family: 'ABeeZee', sans-serif;
+    color: #4f2d03;
+    background: #f9c89f;
+}
+
+.content-child2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h2 {
+    padding: 4%;
+    margin: 2%;
+    font-family: 'ABeeZee', sans-serif;
+    color: #f7f8f9;
+    background: #8a9096;
+}
+
+.content-child3 {
+    flex: 1;
+    padding: 20px;
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact {
+    padding: 5%;
+    color: #f7f8f9;
+    background: url(https://www.jesmondfruitbarn.com.au/wp-content/uploads/2016/10/Jesmond-Fruit-Barn-Bananas.jpg) no-repeat center;
+}
+
+.faq {
+    padding: 5%;
+    color: #4f2d03;
+    background: url(https://www.pitneybowes.com/content/dam/pitneybowes/us/en/shipping-and-mailing/cloud-vs-on-premise-article-hero.jpg) no-repeat center;
+}
+
+.contact:hover, .faq:hover {
+    opacity: 0.50;
+}
